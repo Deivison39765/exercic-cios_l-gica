@@ -1,0 +1,21 @@
+algoritmo "contador_decrescente"
+var
+   N1, N2, ini, fim: inteiro
+inicio
+   escreva("Digite um número: ")
+   leia(N1)
+   escreva("Digite outro número: ")
+   leia(N2)
+   se (N1 >= N2) entao
+      ini <- N1
+      fim <- N2
+   senao
+        ini <- N2
+        fim <- N1
+   fimse
+   enquanto (ini >= fim) faca
+            escreval(ini)
+            ini <- ini - 1
+   fimenquanto
+
+fimalgoritmo
