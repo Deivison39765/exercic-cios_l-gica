@@ -1,0 +1,22 @@
+Algoritmo "maior_e_menor"
+var
+   n, maior, menor, i: inteiro
+inicio
+   escreva("Digite um número: ")
+   leia(n)
+   maior <- n
+   menor <- n
+   para i de 1 ate 2 faca
+      escreva("Digite outro número: ")
+      leia(n)
+      se (n > maior) entao
+         maior <- n
+      fimse
+      se (n < menor) entao
+         menor <- n
+      fimse
+   fimpara
+   escreval("Maior: ", maior)
+   escreval("Menor: ", menor)
+
+fimalgoritmo
